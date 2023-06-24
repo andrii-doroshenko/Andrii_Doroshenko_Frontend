@@ -13,3 +13,209 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: #e5e5e5;
+}
+
+a:hover {
+  color: #fb6d3a;
+}
+
+/* .sidebar {
+  width: 40%;
+  padding-top: 40px;
+  background-color: #1e2939;
+  overflow: hidden;
+}
+
+.sidebar__photo {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  font-style: normal;
+  line-height: 27px;
+}
+
+.sidebar__col {
+  margin-top: 50px;
+  padding-left: 40px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.contacts__row {
+  margin: 0;
+}
+
+.contacts__phone-label {
+  font-weight: 700;
+}
+
+.contacts__link {
+  margin-left: 10px;
+  color: #80868f;
+}
+
+.skills__list {
+  padding-left: 17px;
+}
+
+.skills__content {
+  color: #fff;
+}
+
+.dots__color {
+  color: #fb6d3a;
+}
+
+.main__content {
+  max-width: 60%;
+  padding: 100px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+.about__work-type {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.about__header {
+  margin-bottom: 25px;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.about__description {
+  max-width: 450px;
+}
+
+.projects {
+  margin-bottom: 50px;
+}
+
+.main__content-title {
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.list__padding {
+  padding-left: 20px;
+}
+
+.projects__item {
+  font-weight: 700;
+}
+
+.projects__item--link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.brackets {
+  color: #000;
+}
+
+.work__col {
+  max-width: 525px;
+  margin-bottom: 20px;
+}
+
+.content__title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.content__title--color {
+  color: #fb6d3a;
+}
+
+.period {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.education__description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .sidebar > img {
+    margin: 22px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .sidebar__col {
+    margin: 0;
+    padding: 1em;
+  }
+
+  .main__content {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__content {
+    padding: 1em;
+  }
+} */
