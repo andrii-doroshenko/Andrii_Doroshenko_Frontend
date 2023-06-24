@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Andrii_Doroshenko_Junior-Frontend-Developer/static/css/main.7acaea2f.css",
+    "main.js": "/Andrii_Doroshenko_Junior-Frontend-Developer/static/js/main.07d3183d.js",
+    "index.html": "/Andrii_Doroshenko_Junior-Frontend-Developer/index.html",
+    "main.7acaea2f.css.map": "/Andrii_Doroshenko_Junior-Frontend-Developer/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/Andrii_Doroshenko_Junior-Frontend-Developer/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
