@@ -24,18 +24,11 @@ const Container = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    width: 1024px;
   }
 `;
 
 const Main = styled.div``;
-/* max-width: 1240px;
-  height: 100vh;
-  margin: 0 auto;
-  padding: 40px;
-  flex-direction: row-reverse;
-  justify-content: center;
-  background-color: #e5e5e5; */
 
 export const App = () => {
   return (

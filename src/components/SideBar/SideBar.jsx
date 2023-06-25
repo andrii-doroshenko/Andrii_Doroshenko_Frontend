@@ -2,7 +2,19 @@ import styled from 'styled-components';
 import photo from '../../Img/photo.jpeg';
 import { FaTelegramPlane, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
-const Sidebar = styled.aside``;
+const Sidebar = styled.aside`
+  padding: 15px;
+  background-color: #dbccc1;
+  border-radius: 25px;
+
+  & img {
+    border: 1px solid #5f4b3e4f;
+  }
+
+  & h3 {
+    text-align: center;
+  }
+`;
 
 const IconsList = styled.ul`
   list-style-type: none;
@@ -17,6 +29,12 @@ const IconsList = styled.ul`
   & > li:not(:last-child) {
     margin-right: 10px;
   }
+`;
+
+const Socials = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 `;
 
 const LinkBlue = styled.a`
@@ -46,27 +64,29 @@ const SideBar = () => {
         </ul>
 
         <IconsList>
-          <li>
-            <LinkBlue href="https://t.me/Andrii_Doroshenko" target="blank">
-              <FaTelegramPlane fontSize={'30'} />
-            </LinkBlue>
-          </li>
-          <li>
-            <LinkBlue
-              href="https://www.linkedin.com/in/doroshenko-andrii/"
-              target="blank"
-            >
-              <FaLinkedinIn fontSize={'30'} />
-            </LinkBlue>
-          </li>
-          <li>
-            <LinkBlue
-              href="https://github.com/andrii-doroshenko"
-              target="blank"
-            >
-              <FaGithub fontSize={'30'} />
-            </LinkBlue>
-          </li>
+          <Socials>
+            <li>
+              <LinkBlue href="https://t.me/Andrii_Doroshenko" target="blank">
+                <FaTelegramPlane fontSize={'30'} />
+              </LinkBlue>
+            </li>
+            <li>
+              <LinkBlue
+                href="https://www.linkedin.com/in/doroshenko-andrii/"
+                target="blank"
+              >
+                <FaLinkedinIn fontSize={'30'} />
+              </LinkBlue>
+            </li>
+            <li>
+              <LinkBlue
+                href="https://github.com/andrii-doroshenko"
+                target="blank"
+              >
+                <FaGithub fontSize={'30'} />
+              </LinkBlue>
+            </li>
+          </Socials>
         </IconsList>
 
         <div>
