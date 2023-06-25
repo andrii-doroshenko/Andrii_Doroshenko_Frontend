@@ -34,7 +34,7 @@ const IconsList = styled.ul`
 const Socials = styled.div`
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
 `;
 
 const LinkBlue = styled.a`
@@ -57,7 +57,7 @@ const SideBar = () => {
             </LinkBlue>
           </li>
           <li>
-            <p>
+            <p style={{ marginTop: 0 }}>
               Zhytomyr, Ukraine <span>&#127482;&#127462;</span>
             </p>
           </li>
@@ -66,7 +66,11 @@ const SideBar = () => {
         <IconsList>
           <Socials>
             <li>
-              <LinkBlue href="https://t.me/Andrii_Doroshenko" target="blank">
+              <LinkBlue
+                href="https://t.me/Andrii_Doroshenko"
+                target="blank"
+                title="Telegram"
+              >
                 <FaTelegramPlane fontSize={'30'} />
               </LinkBlue>
             </li>
@@ -74,6 +78,7 @@ const SideBar = () => {
               <LinkBlue
                 href="https://www.linkedin.com/in/doroshenko-andrii/"
                 target="blank"
+                title="Linkeding"
               >
                 <FaLinkedinIn fontSize={'30'} />
               </LinkBlue>
@@ -82,6 +87,7 @@ const SideBar = () => {
               <LinkBlue
                 href="https://github.com/andrii-doroshenko"
                 target="blank"
+                title="GitHub"
               >
                 <FaGithub fontSize={'30'} />
               </LinkBlue>
@@ -92,27 +98,28 @@ const SideBar = () => {
         <div>
           <h3>Tech skills</h3>
           <ul>
+            <li>JsvaScript</li>
             <li>HTML5/CSS3/SASS</li>
+            <li>React</li>
             <li>Responsive/Adaptive design</li>
             <li>Git</li>
-            <li>JsvaScript</li>
-            <li>React</li>
-            <li>Redux</li>
             <li>Rest API</li>
-            <li>Handlebars</li>
+            <li>Redux</li>
             <li>Webpack</li>
-            <li>Parcel</li>
             <li>Node.js</li>
+            <li>Handlebars</li>
             <li>MongoDB</li>
+            <li>Parcel</li>
           </ul>
         </div>
 
         <div>
           <h3>Soft skills</h3>
           <ul>
-            <li>Attention to details</li>
+            <li>Critical thinking</li>
             <li>Teamwork</li>
             <li>Creativity</li>
+            <li>Perseverance and self-learning</li>
             <li>Good communication</li>
           </ul>
         </div>
