@@ -102,7 +102,7 @@ const About = () => {
 
             <li>
               <LinkBlue
-                href="https://github.com/andrii-doroshenko/goit-react-hw-04-phonebook"
+                href="https://andrii-doroshenko.github.io/goit-react-hw-04-phonebook/"
                 target="blank"
               >
                 <FaGithub fontSize={'24'} />
