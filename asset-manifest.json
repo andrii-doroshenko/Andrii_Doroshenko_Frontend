@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Andrii_Doroshenko_Frontend/static/css/main.51a7eb4e.css",
-    "main.js": "/Andrii_Doroshenko_Frontend/static/js/main.1ebdd5c8.js",
+    "main.js": "/Andrii_Doroshenko_Frontend/static/js/main.c86b59fa.js",
     "static/media/photo.jpeg": "/Andrii_Doroshenko_Frontend/static/media/photo.16b3269bcfad9f9626e6.jpeg",
     "index.html": "/Andrii_Doroshenko_Frontend/index.html",
     "main.51a7eb4e.css.map": "/Andrii_Doroshenko_Frontend/static/css/main.51a7eb4e.css.map",
-    "main.1ebdd5c8.js.map": "/Andrii_Doroshenko_Frontend/static/js/main.1ebdd5c8.js.map"
+    "main.c86b59fa.js.map": "/Andrii_Doroshenko_Frontend/static/js/main.c86b59fa.js.map"
   },
   "entrypoints": [
     "static/css/main.51a7eb4e.css",
-    "static/js/main.1ebdd5c8.js"
+    "static/js/main.c86b59fa.js"
   ]
 }
