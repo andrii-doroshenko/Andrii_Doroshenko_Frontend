@@ -1,12 +1,33 @@
 import React from 'react';
+import styled from 'styled-components';
+import { FaGithub } from 'react-icons/fa';
+
+const LinkBlue = styled.a`
+  color: #5f4b3e;
+
+  & > svg {
+    margin-right: 15px;
+  }
+`;
+
+const AboutList = styled.ul`
+  list-style-type: none;
+`;
+
+const InnerList = styled.ul`
+  list-style-type: none;
+  padding: 0;
+`;
 
 const About = () => {
   return (
     <>
-      <ul>
+      <AboutList>
         <li>
-          <h2>Andrii Doroshenko</h2>
-          <h1>Junior Frontend Developer</h1>
+          <div>
+            <h2>Andrii Doroshenko</h2>
+            <h1>Junior Frontend Developer</h1>
+          </div>
         </li>
         <li>
           <h3>Summary</h3>
@@ -21,14 +42,15 @@ const About = () => {
             learner, responsible, and always up for a challenge.
           </p>
         </li>
+
         <li>
           <h3>Project experience</h3>
-          <ul>
+          <InnerList>
             <li>
-              <a href="http://kancler-boom.com/" target="blank">
-                Barbershop
-              </a>
-              <p>[HTML, SASS, JS, Parcel]</p>
+              <LinkBlue href="http://kancler-boom.com/" target="blank">
+                <FaGithub fontSize={'24'} />
+                Barbershop <span>[HTML, SASS, JS, Parcel]</span>
+              </LinkBlue>
               <p>
                 A website with a responsive layout. Role: Team Lead, developer.
                 Build project on GitHub, check for build errors, and live page
@@ -36,21 +58,23 @@ const About = () => {
               </p>
             </li>
             <li>
-              <a href="http://kancler-boom.com/" target="blank">
-                Barbershop
-              </a>
-              <p>[HTML, SASS, JS, Parcel]</p>
+              <LinkBlue href="http://kancler-boom.com/" target="blank">
+                <FaGithub fontSize={'24'} />
+                Barbershop <span>[HTML, SASS, JS, Parcel]</span>
+              </LinkBlue>
+
               <p>
                 A website with a responsive layout. Role: Team Lead, developer.
                 Build project on GitHub, check for build errors, and live page
                 performance.
               </p>
             </li>
-          </ul>
+          </InnerList>
         </li>
+
         <li>
           <h3>Work Experience</h3>
-          <ul>
+          <InnerList>
             <li>
               <b>Travel agency owner</b>
               <p>Best travel | Feb 2018 - Nov 2021</p>
@@ -72,11 +96,12 @@ const About = () => {
                 </li>
               </ul>
             </li>
-          </ul>
+          </InnerList>
         </li>
+
         <li>
           <h3>Education</h3>
-          <ul>
+          <InnerList>
             <li>
               <b>IT School GoIT</b>
               <p>2020 - 2021</p>
@@ -87,9 +112,9 @@ const About = () => {
               <p>2001 - 2006</p>
               <p>Chemistry, Master's degree in Analytical Chemistry</p>
             </li>
-          </ul>
+          </InnerList>
         </li>
-      </ul>
+      </AboutList>
     </>
   );
 };

@@ -2,9 +2,7 @@ import styled from 'styled-components';
 import photo from '../../Img/photo.jpeg';
 import { FaTelegramPlane, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
-const Sidebar = styled.aside`
-  background-color: lightgray;
-`;
+const Sidebar = styled.aside``;
 
 const IconsList = styled.ul`
   list-style-type: none;
@@ -22,23 +20,23 @@ const IconsList = styled.ul`
 `;
 
 const LinkBlue = styled.a`
-  color: blue;
+  color: #5f4b3e;
 `;
 
 const SideBar = () => {
   return (
     <>
       <Sidebar>
-        <img src={photo} alt="self-portrait" width={'450'} height={'450'} />
+        <img src={photo} alt="self-portrait" width={'100%'} />
         <h3>Contact information</h3>
         <ul>
           <li>
-            <a href="tel:+380688337238">(068)833-7238</a>
+            <LinkBlue href="tel:+380688337238">(068)833-7238</LinkBlue>
           </li>
           <li>
-            <a href="mailto:doroshenkoandrey@ukr.net">
+            <LinkBlue href="mailto:doroshenkoandrey@ukr.net">
               doroshenkoandrey@ukr.net
-            </a>
+            </LinkBlue>
           </li>
           <li>
             <p>
@@ -50,7 +48,7 @@ const SideBar = () => {
         <IconsList>
           <li>
             <LinkBlue href="https://t.me/Andrii_Doroshenko" target="blank">
-              <FaTelegramPlane size={'auto'} />
+              <FaTelegramPlane fontSize={'30'} />
             </LinkBlue>
           </li>
           <li>
@@ -58,7 +56,7 @@ const SideBar = () => {
               href="https://www.linkedin.com/in/doroshenko-andrii/"
               target="blank"
             >
-              <FaLinkedinIn size={'auto'} />
+              <FaLinkedinIn fontSize={'30'} />
             </LinkBlue>
           </li>
           <li>
@@ -66,7 +64,7 @@ const SideBar = () => {
               href="https://github.com/andrii-doroshenko"
               target="blank"
             >
-              <FaGithub size={'auto'} />
+              <FaGithub fontSize={'30'} />
             </LinkBlue>
           </li>
         </IconsList>
