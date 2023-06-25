@@ -190,6 +190,12 @@ const About = () => {
               <p>2022 - 2023</p>
               <p>Master's degree in cybersecurity</p>
             </li>
+
+            <li>
+              <b>Center for Postgraduate Education ("Zhytomyr Polytechnic")</b>
+              <p>October 2022 - December 2022</p>
+              <p>Web design</p>
+            </li>
           </InnerList>
         </li>
       </AboutList>
